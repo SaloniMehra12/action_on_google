@@ -1,0 +1,50 @@
+[
+  {
+    "id": "dbe264b1-7f97-4ba3-a70c-0cb847114c01",
+    "data": [
+      {
+        "text": "i want to go for",
+        "alias": "likings",
+        "meta": "@likings",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "root canal",
+        "alias": "surgery",
+        "meta": "@procedure",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cadf0d41-a80f-4b0b-8b4c-93cfba5443ee",
+    "data": [
+      {
+        "text": "i want to go for",
+        "alias": "likings",
+        "meta": "@likings",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "surgery",
+        "alias": "surgery",
+        "meta": "@procedure",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

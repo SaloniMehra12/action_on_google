@@ -1,0 +1,59 @@
+{
+  "id": "00fb6f7b-8a21-4af0-b4a5-aaf0876837ca",
+  "name": "date",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "time_ask",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "252b37bb-1fa2-4248-af71-8839e5d59dc9",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date1",
+          "value": "$date1",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "$name is selected,which date  would you prefer to book appointment?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "which is the most suitable time  for you on $date1",
+          "ssml": "",
+          "displayText": ""
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

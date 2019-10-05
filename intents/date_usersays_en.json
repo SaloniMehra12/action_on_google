@@ -1,0 +1,16 @@
+[
+  {
+    "id": "3a0b86b2-361d-4548-ad10-5046550b40d8",
+    "data": [
+      {
+        "text": "19 december",
+        "alias": "date1",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

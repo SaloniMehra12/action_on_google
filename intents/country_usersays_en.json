@@ -1,0 +1,72 @@
+[
+  {
+    "id": "507f3646-2213-41e9-8e7d-24450846eefa",
+    "data": [
+      {
+        "text": "Thailand",
+        "alias": "name",
+        "meta": "@countries",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c6ae226d-1c89-43d4-bc62-f0d0b1d3958e",
+    "data": [
+      {
+        "text": "philippines",
+        "alias": "name",
+        "meta": "@countries",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7e1afaf0-5a9b-49ee-89e9-20404a99f2a7",
+    "data": [
+      {
+        "text": "Malaysia",
+        "alias": "name",
+        "meta": "@countries",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "44e76ae6-6686-4489-9cd6-1ae09601a123",
+    "data": [
+      {
+        "text": "India",
+        "alias": "name",
+        "meta": "@countries",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ed0ffcfb-b6c6-48ed-92c3-3ab4b85a0533",
+    "data": [
+      {
+        "text": "Singapore",
+        "alias": "name",
+        "meta": "@countries",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "value": "i would like to",
+    "synonyms": [
+      "i am interested in",
+      "i want",
+      "i want a doctor for",
+      "i want a dr for",
+      "i want procedure of",
+      "i want to go for",
+      "i would like to",
+      "i would like to go for",
+      "is there available"
+    ]
+  },
+  {
+    "value": "show me the list",
+    "synonyms": [
+      "i want to have view of countries",
+      "in which country is best",
+      "list please",
+      "show me the list",
+      "show the countries",
+      "tell list",
+      "tell me list",
+      "tell the list",
+      "telll countries",
+      "which is best",
+      "which is cheap"
+    ]
+  }
+]

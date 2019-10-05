@@ -1,0 +1,38 @@
+[
+  {
+    "value": "organs",
+    "synonyms": [
+      "brain",
+      "eyes",
+      "hairs",
+      "hand",
+      "heart",
+      "kidney",
+      "leg",
+      "liver",
+      "lung",
+      "mouth",
+      "nails",
+      "nose",
+      "organs",
+      "stomach"
+    ]
+  },
+  {
+    "value": "root cannal",
+    "synonyms": [
+      "dental issues",
+      "dental problem",
+      "root cannal",
+      "tooth ache"
+    ]
+  },
+  {
+    "value": "surgery",
+    "synonyms": [
+      "operation",
+      "surgery",
+      "therapy"
+    ]
+  }
+]

@@ -1,0 +1,153 @@
+{
+  "id": "3241f35d-b036-4583-beca-ad2b2ab112bf",
+  "name": "procedure",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "country_name",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "083d628b-a8da-4f47-bd34-cf2128c1b046",
+          "required": false,
+          "dataType": "@procedure",
+          "name": "surgery",
+          "value": "$surgery",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "2037e39e-5863-40ed-b092-0c270105dc93",
+          "required": false,
+          "dataType": "@likings",
+          "name": "likings",
+          "value": "$likings",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "yeah sure in which country would you like to go for",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "list_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "country list",
+          "subtitle": "",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "india",
+                "synonyms": [
+                  "bharat",
+                  "Indian",
+                  "Bharat",
+                  "Hindustan",
+                  "hindustan",
+                  "india"
+                ]
+              },
+              "title": "India",
+              "description": "",
+              "image": {
+                "url": "http://www.mapsofindia.com/india/images/india-map-thumb.png",
+                "accessibilityText": ""
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Singapore",
+                "synonyms": [
+                  "singapore",
+                  "Signapore"
+                ]
+              },
+              "title": "Singapore",
+              "description": "",
+              "image": {
+                "url": "https://www.mapsofworld.com/singapore/maps/singapore-political-map.jpg",
+                "accessibilityText": ""
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Malaysia",
+                "synonyms": [
+                  "malaysia"
+                ]
+              },
+              "title": "Malaysia",
+              "description": "",
+              "image": {
+                "url": "https://previews.123rf.com/images/dikobrazik/dikobrazik1708/dikobrazik170800193/84636793-malaysia-map-and-flag-vector-illustration.jpg",
+                "accessibilityText": ""
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Philippines",
+                "synonyms": [
+                  "philippines"
+                ]
+              },
+              "title": "Philippines",
+              "description": "",
+              "image": {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Labelled_map_of_the_Philippines_-_Provinces_and_Regions.png/825px-Labelled_map_of_the_Philippines_-_Provinces_and_Regions.png",
+                "accessibilityText": ""
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Thailand",
+                "synonyms": [
+                  "thailand"
+                ]
+              },
+              "title": "Thailand",
+              "description": "",
+              "image": {
+                "url": "https://cdn5.vectorstock.com/i/1000x1000/71/79/thailand-map-vector-1607179.jpg",
+                "accessibilityText": ""
+              }
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

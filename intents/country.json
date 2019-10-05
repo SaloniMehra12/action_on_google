@@ -1,0 +1,84 @@
+{
+  "id": "891fe355-4115-4b62-9d5b-1fc4f6e360a6",
+  "name": "country",
+  "auto": true,
+  "contexts": [
+    "country_name"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "country_name",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3e40b088-f0ce-4a90-8477-58790e29381b",
+          "required": true,
+          "dataType": "@countries",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "yeah sure in which country would you like to go for"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "$name is selected,which date  would you prefer to book appointment?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "calendar",
+          "formattedText": "view your calendar to choose suitable date for appointment",
+          "image": {
+            "url": "https://banner2.kisspng.com/20180825/xlo/kisspng-google-calendar-computer-icons-calendaring-softwar-cobot-calendar-sync-5b81be20eb5585.7416311415352294729639.jpg",
+            "accessibilityText": "appointment_calendar"
+          },
+          "buttons": [
+            {
+              "title": "view your calender",
+              "openUrlAction": {
+                "url": "https://www.google.com/calendar/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
